@@ -5,7 +5,7 @@
     "version": "0.0.1",
     "description": "Multiplexor de 2 a 1 de buses de 8 bits",
     "author": "Juan Gonzalez-Gomez (obijuan)",
-    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2291.208%22%20height=%22126.018%22%20viewBox=%220%200%2085.507537%20118.14196%22%3E%3Cpath%20d=%22M67.175%2039.767c0-7.135-3.893-13.724-10.206-17.275a20.674%2020.674%200%200%200-20.365.079c-6.284%203.6-10.124%2010.22-10.066%2017.354v41.836c-.058%207.135%203.782%2013.754%2010.066%2017.354a20.674%2020.674%200%200%200%2020.365.08c6.313-3.551%2010.206-10.14%2010.206-17.276z%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%222.813%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%2235.08%22%20y=%2248.665%22%20font-weight=%22400%22%20font-size=%2218.75%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%2235.08%22%20y=%2248.665%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%2234.022%22%20y=%2285.257%22%20font-weight=%22400%22%20font-size=%2218.75%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%2234.022%22%20y=%2285.257%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%2226.122%22%20y=%2213.669%22%20font-weight=%22400%22%20font-size=%2218.75%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%2226.122%22%20y=%2213.669%22%3EMux%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M26.626%2042.397H1.93M26.626%2078.18H1.93M47.29%20102.12v14.616H1.426M67.45%2058.524H84.08%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%222.813%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
+    "image": "%3Csvg%20xmlns=%22http://www.w3.org/2000/svg%22%20width=%2290.67%22%20height=%22110.126%22%20viewBox=%220%200%2085.003537%20103.24357%22%3E%3Cpath%20d=%22M66.671%2039.767c0-7.135-3.893-13.725-10.206-17.275a20.674%2020.674%200%200%200-20.365.079c-6.284%203.6-10.124%2010.22-10.066%2017.354v41.836c-.058%207.135%203.782%2013.754%2010.066%2017.354a20.674%2020.674%200%200%200%2020.365.08c6.313-3.551%2010.206-10.14%2010.206-17.276z%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%222.813%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3Ctext%20style=%22line-height:125%25%22%20x=%2234.576%22%20y=%2248.665%22%20font-weight=%22400%22%20font-size=%2218.75%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%2234.576%22%20y=%2248.665%22%3E0%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%2233.518%22%20y=%2285.257%22%20font-weight=%22400%22%20font-size=%2218.75%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%2233.518%22%20y=%2285.257%22%3E1%3C/tspan%3E%3C/text%3E%3Ctext%20style=%22line-height:125%25%22%20x=%2225.618%22%20y=%2213.669%22%20font-weight=%22400%22%20font-size=%2218.75%22%20font-family=%22sans-serif%22%20letter-spacing=%220%22%20word-spacing=%220%22%3E%3Ctspan%20x=%2225.618%22%20y=%2213.669%22%3EMux%3C/tspan%3E%3C/text%3E%3Cpath%20d=%22M26.122%2042.397H1.426M26.122%2078.18H1.426M66.945%2058.524h16.632%22%20fill=%22none%22%20stroke=%22#00f%22%20stroke-width=%222.813%22%20stroke-linecap=%22round%22%20stroke-linejoin=%22round%22/%3E%3C/svg%3E"
   },
   "design": {
     "board": "icezum",
@@ -287,8 +287,8 @@
     },
     "state": {
       "pan": {
-        "x": 1113.0703,
-        "y": 329.5
+        "x": 778,
+        "y": 231.5
       },
       "zoom": 1
     }
