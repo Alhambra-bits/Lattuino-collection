@@ -27,12 +27,31 @@
             "clock": false
           },
           "position": {
-            "x": 200,
-            "y": 144
+            "x": 152,
+            "y": 80
           }
         },
         {
           "id": "b0f01762-0a03-4cec-9bb0-8596885ef1cb",
+          "type": "basic.output",
+          "data": {
+            "name": "LED",
+            "pins": [
+              {
+                "index": "0",
+                "name": "LED7",
+                "value": "104"
+              }
+            ],
+            "virtual": false
+          },
+          "position": {
+            "x": 568,
+            "y": 160
+          }
+        },
+        {
+          "id": "4b2d7314-f3cf-4703-9708-abb407744a87",
           "type": "basic.output",
           "data": {
             "name": "LED",
@@ -47,7 +66,7 @@
           },
           "position": {
             "x": 568,
-            "y": 160
+            "y": 256
           }
         },
         {
@@ -66,8 +85,8 @@
           "id": "33d36e99-2b67-4b68-b7d5-91e959c7a2a3",
           "type": "b734f60cce5a9de8621cbbd63cf95b689e40512c",
           "position": {
-            "x": 200,
-            "y": 240
+            "x": 216,
+            "y": 176
           },
           "size": {
             "width": 96,
@@ -75,19 +94,27 @@
           }
         },
         {
-          "id": "cb18e6fb-79a0-4572-93d3-f875d1cdcea1",
-          "type": "basic.info",
-          "data": {
-            "info": "Circuito \"Hola mundo\" para mostrar el funcionamiento de un \nBiestable de tipo D\n\nEl biestable inicialmente está a 0. Cuando se aprieta el pulsador,\nse genera un flanco de reloj que hace que el biestable captura\nel bit 1 que viene por su entrada, que encenderá el led\n\nPara volver al estado inicial hay que hacer un reset de la placa\n",
-            "readonly": false
-          },
+          "id": "a6f0a7e1-28d5-4d91-85f7-5f65b34cf638",
+          "type": "8c5d8b238a335255daad3b21ec5bab77132f809e",
           "position": {
-            "x": 192,
-            "y": 344
+            "x": 400,
+            "y": 256
           },
           "size": {
-            "width": 560,
-            "height": 176
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
+          "id": "085d4cb1-f482-419a-86e2-6836be8f6317",
+          "type": "b734f60cce5a9de8621cbbd63cf95b689e40512c",
+          "position": {
+            "x": 216,
+            "y": 272
+          },
+          "size": {
+            "width": 96,
+            "height": 64
           }
         }
       ],
@@ -121,13 +148,44 @@
             "block": "2b1c6a32-aaa1-4edc-b8ce-c55ee27b692f",
             "port": "78ec5b41-e94f-4892-a7c5-42f2b4970c1b"
           }
+        },
+        {
+          "source": {
+            "block": "085d4cb1-f482-419a-86e2-6836be8f6317",
+            "port": "3d584b0a-29eb-47af-8c43-c0822282ef05"
+          },
+          "target": {
+            "block": "a6f0a7e1-28d5-4d91-85f7-5f65b34cf638",
+            "port": "78ec5b41-e94f-4892-a7c5-42f2b4970c1b"
+          },
+          "vertices": []
+        },
+        {
+          "source": {
+            "block": "a6f0a7e1-28d5-4d91-85f7-5f65b34cf638",
+            "port": "f164a06d-b8e3-480d-b351-5d7d1e7ae3a2"
+          },
+          "target": {
+            "block": "4b2d7314-f3cf-4703-9708-abb407744a87",
+            "port": "in"
+          }
+        },
+        {
+          "source": {
+            "block": "6a40ff76-202f-4b9b-83f7-871890c30584",
+            "port": "out"
+          },
+          "target": {
+            "block": "a6f0a7e1-28d5-4d91-85f7-5f65b34cf638",
+            "port": "e85c1424-78de-4f24-a4bc-6a2901b26148"
+          }
         }
       ]
     },
     "state": {
       "pan": {
-        "x": 116.5,
-        "y": 50
+        "x": -34,
+        "y": -12.5
       },
       "zoom": 1
     }

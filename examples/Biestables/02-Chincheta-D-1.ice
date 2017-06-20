@@ -32,18 +32,6 @@
           }
         },
         {
-          "id": "528f1254-3d2d-451a-b945-24bafb72db48",
-          "type": "5d56f16d3f855d65c6efb53721204b2bf0dc5489",
-          "position": {
-            "x": 400,
-            "y": 160
-          },
-          "size": {
-            "width": 96,
-            "height": 64
-          }
-        },
-        {
           "id": "b0f01762-0a03-4cec-9bb0-8596885ef1cb",
           "type": "basic.output",
           "data": {
@@ -63,6 +51,18 @@
           }
         },
         {
+          "id": "528f1254-3d2d-451a-b945-24bafb72db48",
+          "type": "5d56f16d3f855d65c6efb53721204b2bf0dc5489",
+          "position": {
+            "x": 400,
+            "y": 160
+          },
+          "size": {
+            "width": 96,
+            "height": 64
+          }
+        },
+        {
           "id": "0b26e0a6-f017-4000-9cfd-f716fabf9636",
           "type": "fec7ff39e4c71bcdf0ca03690e64aab18405ad25",
           "position": {
@@ -72,6 +72,22 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "6e73e9dd-c329-4f7d-80c4-dae4d97f1137",
+          "type": "basic.info",
+          "data": {
+            "info": "Circuito \"Hola mundo\" para mostrar el funcionamiento de un \nBiestable de tipo D\n\nEjemplo similar al 1, pero se usa un biestable tipo D que está\ninicializado a 1. Por la entrada se pone un 0 constante. Al apretar\nel pulsador este 0 se captura, y el led se apaga\n\n\n",
+            "readonly": false
+          },
+          "position": {
+            "x": 200,
+            "y": 304
+          },
+          "size": {
+            "width": 560,
+            "height": 176
           }
         }
       ],
@@ -110,8 +126,8 @@
     },
     "state": {
       "pan": {
-        "x": 18,
-        "y": 39.5
+        "x": -54,
+        "y": -28
       },
       "zoom": 1
     }
