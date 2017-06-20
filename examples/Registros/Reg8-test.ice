@@ -82,7 +82,7 @@
             "clock": false
           },
           "position": {
-            "x": 560,
+            "x": 656,
             "y": 128
           }
         },
@@ -90,7 +90,7 @@
           "id": "1f0781ae-e5a6-412d-a605-9e50c0738cb7",
           "type": "0c78123922cfa7c522dfc3d29e3724f56f946c5c",
           "position": {
-            "x": 560,
+            "x": 656,
             "y": 232
           },
           "size": {
@@ -108,6 +108,22 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "cf12ee7a-efa4-460d-9d6f-7c2c97b6c3ea",
+          "type": "basic.info",
+          "data": {
+            "info": "Ejemplo de un registro de 8 bits\n\nEl registro inicialmente contiene el valor 0\n(sus 8 bits están a 0) y por tarto los 8 leds\na los que está conectado están apagados\n\nAl apretar el pulsador se carga el valor 0xAA\n(en hexadecimal), que se corresponde con el \nvalor binario 10101010, que hace que los leds\nimpares estén encendidos y los pares apagados",
+            "readonly": false
+          },
+          "position": {
+            "x": 656,
+            "y": 360
+          },
+          "size": {
+            "width": 384,
+            "height": 192
           }
         }
       ],
@@ -148,8 +164,8 @@
     },
     "state": {
       "pan": {
-        "x": -418,
-        "y": 15.5
+        "x": -380.5,
+        "y": 87
       },
       "zoom": 1
     }
