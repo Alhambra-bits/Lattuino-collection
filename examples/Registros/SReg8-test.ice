@@ -109,6 +109,22 @@
             "width": 96,
             "height": 64
           }
+        },
+        {
+          "id": "c73827c2-ed13-40cd-8cbe-c51bd6fb2e73",
+          "type": "basic.info",
+          "data": {
+            "info": "Ejemplo de uso de un registro de desplazamiento de 8 bits, que\ndesplaza los bits hacia la derecha (de mayor a menor peso)\nInicialmente está inicializado con el valor 0x80 (10000000 en bin)\nAl apretar el botón los bits se desplazan una posición hacia la\nderecha, por lo que el bit a 1 se va desplazando por los leds\n",
+            "readonly": false
+          },
+          "position": {
+            "x": -184,
+            "y": 352
+          },
+          "size": {
+            "width": 544,
+            "height": 128
+          }
         }
       ],
       "wires": [
@@ -164,10 +180,10 @@
     },
     "state": {
       "pan": {
-        "x": 290.9152,
-        "y": 3.9407
+        "x": 259.5,
+        "y": -19.5
       },
-      "zoom": 0.8686
+      "zoom": 1
     }
   },
   "dependencies": {
