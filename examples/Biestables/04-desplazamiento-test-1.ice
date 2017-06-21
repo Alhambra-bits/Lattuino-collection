@@ -19,8 +19,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "SW2",
-                "value": "11"
+                "name": "SW1",
+                "value": "10"
               }
             ],
             "virtual": false,
@@ -39,8 +39,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "LED2",
-                "value": "97"
+                "name": "LED4",
+                "value": "99"
               }
             ],
             "virtual": false
@@ -58,8 +58,8 @@
             "pins": [
               {
                 "index": "0",
-                "name": "LED1",
-                "value": "96"
+                "name": "LED2",
+                "value": "97"
               }
             ],
             "virtual": false
@@ -134,6 +134,22 @@
           "size": {
             "width": 96,
             "height": 64
+          }
+        },
+        {
+          "id": "7ceb62bf-daea-4fd1-b3b0-0ec0e06774ee",
+          "type": "basic.info",
+          "data": {
+            "info": "Ejemplo de desplazamiento de bits\nHay tres biestables D conectados en serie: la\nsalida de uno está conectada a la entrada del \nsiguiente\nEl primero está inicializado a 1, y el resto a 0\n\nCon cada pulsación del botón del '1' avanza de\nun biestable a otro, pasando por todos y volviendo\nal comienzo\n\nEl botón está conectado a un anti-rebotes para\naliminar los pulsos espúreos que pudiesen aparecer\n",
+            "readonly": false
+          },
+          "position": {
+            "x": -288,
+            "y": 96
+          },
+          "size": {
+            "width": 448,
+            "height": 240
           }
         }
       ],
@@ -254,8 +270,8 @@
     },
     "state": {
       "pan": {
-        "x": 402,
-        "y": 380
+        "x": 380,
+        "y": 265
       },
       "zoom": 1
     }
